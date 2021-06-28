@@ -28,14 +28,14 @@ figcaption {
 .user-card {
     border-radius: 8px;
     padding: 30px;
-    width: 350px;
+    width: 360px;
 }
 
 .img-input {
     width: 15px;
     margin-left: 12px;
     margin-right: 12px;
-    margin-top: 6px;
+    margin-top: 10px;
 }
 
 .input-group-append {
@@ -47,6 +47,20 @@ hr.line-divisor {
     border: 0;
     height: 2px;
     background-image: linear-gradient(to right, #ccc, #166635, #ccc);
+}
+
+img.social-media{
+    width: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 12px;
+}
+
+img.social-media:hover{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.2);
+    transition: all 0.3s;
 }
 
 #div-geral {

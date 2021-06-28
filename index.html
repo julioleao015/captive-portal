@@ -9,10 +9,11 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/cute-alert-master/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
-<body>
+<body onload="cuteAlert()">
     <div id="div-geral" class="d-flex justify-content-center">
         <div class="user-card bg-white">
             <!-- Div Logo -->
@@ -40,8 +41,9 @@
                         </div>
                         <input type="password" class="form-control" name="auth_pass" id="password" placeholder="Senha">
                         <div class="input-group-prepend">
-                            <span class="input-group-text" id="icon-show-passwd"><img src="img/eye-open.png" id="show-passwd" onclick="mostrarSenha()"></span>
-                        </div>                        
+                            <span class="input-group-text" id="icon-show-passwd"><img src="img/eye-open.png"
+                                    id="show-passwd" onclick="mostrarSenha()"></span>
+                        </div>
                     </div>
                     <div class="form-group form-check mb-4">
                         <input type="checkbox" class="form-check-input" id="check-form">
@@ -52,8 +54,10 @@
                         <p>Visite-nos através dos canais abaixo</p>
                     </div>
                     <div class="input-group justify-content-center">
-                        <a href="https://pt-br.facebook.com/" target="blank"><img class="social-media" src="img/icon-facebook.png" alt=""></a>
-                        <a href="https://www.instagram.com/" target="blank"><img class="social-media" src="img/icon-instagram.png" alt=""></a>
+                        <a href="https://pt-br.facebook.com/" target="blank"><img class="social-media"
+                                src="img/icon-facebook.png" alt=""></a>
+                        <a href="https://www.instagram.com/" target="blank"><img class="social-media"
+                                src="img/icon-instagram.png" alt=""></a>
                         <a href="#" target="blank"><img class="social-media" src="img/icon-www.png" alt=""></a>
                     </div>
                 </form>
@@ -65,6 +69,19 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/mostrarsenha.js"></script>
+    <script src="js/cute-alert-master/cute-alert.js"></script>
+    <!-- Function alert onload -->
+    <script>
+        cuteAlert({
+            type: "info",
+            title: "Aviso",
+            message: "Se você for um colaborador ABSJ use seu usuário de domínio para acessar a rede, caso contrário, use o código voucher fornecido a você.",
+            buttonText: "Fechar"
+        }).then(() => {
+            // do something
+        })
+    </script>
+
 </body>
 
 </html>

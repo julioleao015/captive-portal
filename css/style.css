@@ -3,7 +3,7 @@ body, html {
     padding: 0;
     height: 100%;
     background: rgb(32, 53, 53) !important;
-    overflow: hidden;
+    overflow: auto;
 }
 
 input.form-control:focus {

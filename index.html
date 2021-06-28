@@ -18,7 +18,7 @@
             <!-- Div Logo -->
             <div class="div-logo d-flex justify-content-center">
                 <figure>
-                    <img id="img-logo" src="img/logo-absj.png" alt="Logo ABSJ" class="mb-3">   
+                    <img id="img-logo" src="img/logo-absj.png" alt="Logo ABSJ" class="mb-3">
                     <figcaption class="text-center">Associação Beneficente <br> São José</figcaption>
                 </figure>
                 <!-- Alterar Tamanho da Imagem -->
@@ -32,13 +32,16 @@
                         <div class="input-group-append">
                             <img class="img-input" src="img/user-solid.png" alt="Ícone do usuário">
                         </div>
-                        <input type="text" class="form-control" name="auth_user" id="" placeholder="Usuário">
+                        <input type="text" class="form-control" name="auth_user" id="user" placeholder="Usuário">
                     </div>
                     <div class="input-group mb-3">
                         <div class="input-group-append">
                             <img class="img-input" src="img/key-solid.png" alt="Ícone da senha">
                         </div>
-                        <input type="password" class="form-control" name="auth_pass" id="" placeholder="Senha">
+                        <input type="password" class="form-control" name="auth_pass" id="password" placeholder="Senha">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="icon-show-passwd"><img src="img/eye-open.png" id="show-passwd" onclick="mostrarSenha()"></span>
+                        </div>                        
                     </div>
                     <div class="form-group form-check mb-4">
                         <input type="checkbox" class="form-check-input" id="check-form">
@@ -56,6 +59,7 @@
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/mostrarsenha.js"></script>
 </body>
 
 </html>

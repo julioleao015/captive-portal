@@ -3,11 +3,14 @@ body, html {
     padding: 0;
     height: 100%;
     background: rgb(32, 53, 53) !important;
+    overflow: hidden;
 }
 
 input.form-control:focus {
     outline: 0;
     box-shadow: 0 0 0 0;
+    /* border-color: #75b48d; */
+    border-color: #ced4da;
 }
 
 p {
@@ -70,6 +73,10 @@ hr.line-divisor {
     color: white;
 }
 
+input#password{
+    border-right: none;
+}
+
 input#check-form {
     border: solid 1px #166635;
 }
@@ -82,4 +89,18 @@ input#check-form:checked {
 input#check-form:focus {
     outline: 0;
     box-shadow: 0 0 0 0;
+}
+
+img#show-passwd {
+    width: 18px;
+    margin-top: 2px;
+    border: none;
+    
+}
+
+span#icon-show-passwd{
+    background: transparent;
+    border-left: none;
+    height: 40px;
+    margin-left: -5px;
 }

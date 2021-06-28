@@ -2,12 +2,30 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    background: rgb(39, 65, 65) !important;
+    background: rgb(32, 53, 53) !important;
+}
+
+input.form-control:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+figcaption {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 13pt;
+    color: #0d4623;
 }
 
 .user-card {
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 30px;
+    width: 350px;
 }
 
 .img-input {
@@ -22,8 +40,14 @@ body, html {
     border-radius: 4px;
 }
 
+hr.line-divisor {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, #ccc, #166635, #ccc);
+}
+
 #div-geral {
-    margin-top: 120px;
+    margin-top: 140px;
 }
 
 #img-logo {
@@ -31,7 +55,31 @@ body, html {
     height: 160px;
     margin-top: -120px;
     background-color: white;
-    border: solid 8px rgb(39, 65, 65);
+    border: solid 8px rgb(32, 53, 53);
     border-radius: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
+#btn-submit {
+    margin: auto;
+    display: block;
+    width: 28vh;
+    background: #166635;
+    color: white;
+}
+
+input#check-form {
+    border: solid 1px #166635;
+}
+
+input#check-form:checked {
+    color: #166635;
+    background-color: #166635;
+}
+
+input#check-form:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}

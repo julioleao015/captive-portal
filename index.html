@@ -16,12 +16,17 @@
     <div id="div-geral" class="d-flex justify-content-center">
         <div class="user-card bg-white">
             <!-- Div Logo -->
-            <div class="div-logo d-flex justify-content-center mb-4">
-                <img id="img-logo" src="img/logo-absj.png" alt="Logo ABSJ">
+            <div class="div-logo d-flex justify-content-center">
+                <figure>
+                    <img id="img-logo" src="img/logo-absj.png" alt="Logo ABSJ" class="mb-3">   
+                    <figcaption class="text-center">Associação Beneficente <br> São José</figcaption>
+                </figure>
+                <!-- Alterar Tamanho da Imagem -->
             </div>
             <!-- End Logo -->
+            <hr class="line-divisor mt-1">
             <!-- Div Form -->
-            <div id="div-form" class="d-flex justify-content-center">
+            <div id="div-form" class="d-flex justify-content-center mt-4">
                 <form action="POST" action="$PORTAL_ACTION$">
                     <div class="input-group mb-4">
                         <div class="input-group-append">
@@ -29,11 +34,19 @@
                         </div>
                         <input type="text" class="form-control" name="auth_user" id="" placeholder="Usuário">
                     </div>
-                    <div class="input-group">
+                    <div class="input-group mb-3">
                         <div class="input-group-append">
                             <img class="img-input" src="img/key-solid.png" alt="Ícone da senha">
                         </div>
                         <input type="password" class="form-control" name="auth_pass" id="" placeholder="Senha">
+                    </div>
+                    <div class="form-group form-check mb-4">
+                        <input type="checkbox" class="form-check-input" id="check-form">
+                        <label class="form-check-label" for="exampleCheck1">Lembrar-me</label>
+                    </div>
+                    <button type="submit" class="btn" id="btn-submit">Entrar</button>
+                    <div class="input-group justify-content-center mt-4">
+                        <p>Visite nossas Redes Sociais</p>
                     </div>
                 </form>
             </div>

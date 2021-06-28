@@ -13,7 +13,33 @@
 </head>
 
 <body>
-
+    <div id="div-geral" class="d-flex justify-content-center">
+        <div class="user-card bg-white">
+            <!-- Div Logo -->
+            <div class="div-logo d-flex justify-content-center mb-4">
+                <img id="img-logo" src="img/logo-absj.png" alt="Logo ABSJ">
+            </div>
+            <!-- End Logo -->
+            <!-- Div Form -->
+            <div id="div-form" class="d-flex justify-content-center">
+                <form action="POST" action="$PORTAL_ACTION$">
+                    <div class="input-group mb-4">
+                        <div class="input-group-append">
+                            <img class="img-input" src="img/user-solid.png" alt="Ícone do usuário">
+                        </div>
+                        <input type="text" class="form-control" name="auth_user" id="" placeholder="Usuário">
+                    </div>
+                    <div class="input-group">
+                        <div class="input-group-append">
+                            <img class="img-input" src="img/key-solid.png" alt="Ícone da senha">
+                        </div>
+                        <input type="password" class="form-control" name="auth_pass" id="" placeholder="Senha">
+                    </div>
+                </form>
+            </div>
+            <!-- End Form -->
+        </div>
+    </div>
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>

@@ -34,6 +34,8 @@
                             <img class="img-input" src="img/user-solid.png" alt="Ícone do usuário">
                         </div>
                         <input type="text" class="form-control" name="auth_user" id="user" placeholder="Usuário">
+                        <input name="redirurl" type="hidden" value="$PORTAL_REDIRURL$">
+                        <input name="zone" type="hidden" value="$PORTAL_ZONE$">
                     </div>
                     <div class="input-group mb-3">
                         <div class="input-group-append">
@@ -41,8 +43,7 @@
                         </div>
                         <input type="password" class="form-control" name="auth_pass" id="password" placeholder="Senha">
                         <div class="input-group-prepend">
-                            <span class="input-group-text" id="icon-show-passwd"><img src="img/eye-open.png"
-                                    id="show-passwd" onclick="mostrarSenha()"></span>
+                            <span class="input-group-text" id="icon-show-passwd"><img src="img/eye-open.png" id="show-passwd" onclick="mostrarSenha()"></span>
                         </div>
                     </div>
                     <div class="form-group form-check mb-4">
@@ -54,10 +55,8 @@
                         <p>Visite-nos através dos canais abaixo</p>
                     </div>
                     <div class="input-group justify-content-center">
-                        <a href="https://pt-br.facebook.com/" target="blank"><img class="social-media"
-                                src="img/icon-facebook.png" alt=""></a>
-                        <a href="https://www.instagram.com/" target="blank"><img class="social-media"
-                                src="img/icon-instagram.png" alt=""></a>
+                        <a href="https://pt-br.facebook.com/" target="blank"><img class="social-media" src="img/icon-facebook.png" alt=""></a>
+                        <a href="https://www.instagram.com/" target="blank"><img class="social-media" src="img/icon-instagram.png" alt=""></a>
                         <a href="#" target="blank"><img class="social-media" src="img/icon-www.png" alt=""></a>
                     </div>
                 </form>

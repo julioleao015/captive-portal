@@ -49,22 +49,8 @@ hr.line-divisor {
     background-image: linear-gradient(to right, #ccc, #166635, #ccc);
 }
 
-img.social-media{
-    width: 30px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin: 12px;
-}
-
-img.social-media:hover{
-    -moz-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.2);
-    transition: all 0.3s;
-}
-
 #div-geral {
-    margin-top: 110px;
+    margin-top: 140px;
 }
 
 #img-logo {
@@ -85,9 +71,20 @@ img.social-media:hover{
     width: 28vh;
     background: #166635;
     color: white;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
-input#password{
+#btn-submit:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background: #18743b;
+}
+
+input#password {
     border-right: none;
 }
 
@@ -109,10 +106,9 @@ img#show-passwd {
     width: 18px;
     margin-top: 2px;
     border: none;
-    
 }
 
-span#icon-show-passwd{
+span#icon-show-passwd {
     background: transparent;
     border-left: none;
     height: 40px;

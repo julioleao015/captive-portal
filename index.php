@@ -45,20 +45,11 @@
                             <span class="input-group-text" id="icon-show-passwd"><img src="img/eye-open.png" id="show-passwd" onclick="mostrarSenha()"></span>
                         </div>
                     </div>
-                    <div class="form-group form-check mb-4">
+                    <div class="form-group form-check mt-3 mb-5">
                         <input type="checkbox" class="form-check-input" id="check-form">
                         <label class="form-check-label" for="exampleCheck1">Lembrar-me</label>
                     </div>
-                    <button type="submit" class="btn" id="btn-submit">Entrar</button>
-                    <hr class="line-divisor mt-4">
-                    <div class="input-group justify-content-center mt-2">
-                        <p>Visite-nos através dos canais abaixo</p>
-                    </div>
-                    <div class="input-group justify-content-center">
-                        <a href="https://pt-br.facebook.com/" target="blank"><img class="social-media" src="img/icon-facebook.png" alt=""></a>
-                        <a href="https://www.instagr<!--  -->am.com/" target="blank"><img class="social-media" src="img/icon-instagram.png" alt=""></a>
-                        <a href="#" target="blank"><img class="social-media" src="img/icon-www.png" alt=""></a>
-                    </div>
+                    <button type="submit" class="btn mb-3" id="btn-submit">Entrar</button>
                 </form>
             </div>
             <!-- End Form -->

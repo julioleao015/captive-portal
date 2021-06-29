@@ -22,7 +22,6 @@
                     <img id="img-logo" src="img/logo-absj.png" alt="Logo ABSJ" class="mb-3">
                     <figcaption class="text-center">Associação Beneficente <br> São José</figcaption>
                 </figure>
-                <!-- Alterar Tamanho da Imagem -->
             </div>
             <!-- End Logo -->
             <hr class="line-divisor mt-1">
@@ -51,12 +50,13 @@
                         <label class="form-check-label" for="exampleCheck1">Lembrar-me</label>
                     </div>
                     <button type="submit" class="btn" id="btn-submit">Entrar</button>
-                    <div class="input-group justify-content-center mt-5">
+                    <hr class="line-divisor mt-4">
+                    <div class="input-group justify-content-center mt-2">
                         <p>Visite-nos através dos canais abaixo</p>
                     </div>
                     <div class="input-group justify-content-center">
                         <a href="https://pt-br.facebook.com/" target="blank"><img class="social-media" src="img/icon-facebook.png" alt=""></a>
-                        <a href="https://www.instagram.com/" target="blank"><img class="social-media" src="img/icon-instagram.png" alt=""></a>
+                        <a href="https://www.instagr<!--  -->am.com/" target="blank"><img class="social-media" src="img/icon-instagram.png" alt=""></a>
                         <a href="#" target="blank"><img class="social-media" src="img/icon-www.png" alt=""></a>
                     </div>
                 </form>
